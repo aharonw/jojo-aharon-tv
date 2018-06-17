@@ -1,0 +1,120 @@
+@import 'nib'
+@import 'jeet'
+@import 'rupture'
+
+*
+  box-sizing: border-box
+
+a:visited
+  color: blue
+
+body
+  // font-family: 'courier'
+  font: 14px / 1.7 Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,monospace
+  color: #000
+  background: #fff
+  padding: 3em 4em 5em
+  word-wrap: break-word
+  +below(600px)
+    padding: .4em
+
+
+header
+  overflow: hidden
+  margin: 0 auto
+  +below(800px)
+    border-bottom: 1px solid rgba(0,0,0,.1)
+    padding-bottom: 15px
+    margin-bottom: 35px
+  // text-align: center
+
+  h1
+    text-transform: uppercase
+    font-size: 16px
+    font-family: "Helvetica"
+    font-weight: bold
+    float: left
+    margin: 0
+    +below(800px)
+      width: 100%
+      margin: 10px 0px 5px
+
+  ul
+    list-style: none
+    overflow: hidden
+    padding: 0
+    margin: 0
+    float: right
+    +below(800px)
+      float: left
+
+    li
+      display: inline-block
+      +below(2)
+        line-height: 2
+
+      span
+        margin: 0px 3px
+        opacity: 0
+
+      a
+        padding: 2px 0px
+        font-size: 15px
+        text-decoration: none
+        +below(800px)
+          font-size: 13px
+          color: #999
+          &:visited
+            color: #999
+
+        &.here
+          pointer-events: none
+          color: black
+
+        &:hover
+          background-color: #ffaee4
+
+.wrapper
+  max-width: 650px
+  min-width: 320px
+  margin: 6em auto
+  +below(1200px)
+    margin: 4em auto
+  +below(600px)
+    margin: 1em auto
+
+
+.text
+  h1
+    font-size: 21px
+    line-height: 1.4
+    font-family: 'Helvetica', 'Ariel', sans-serif
+  h2
+    font-size: 14px
+    line-height: 1.4
+    margin-top: 30px
+  ul
+    padding-bottom: 20px
+    li
+      font-size: 15px
+      margin: 14px 0px
+
+.right a
+  display: block
+  margin: 5px 0px
+
+a.button
+  padding: 20px
+  // border: 1px solid black
+  display: inline-block
+  font-weight: bold
+  cursor: pointer
+  background-color: #ffaee4
+
+  &:hover
+    opacity: .5
+
+footer
+  border-top: 1px solid rgba(0,0,0,.1)
+  margin-top: 50px
+  height: 50px

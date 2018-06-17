@@ -1,0 +1,33 @@
+extends layouts/_layout
+
+block content
+  header
+    h1 Joanna + Aharon's Wedding
+    ul
+      li
+        a(href="/").here Home
+        span /
+      li
+        a(href="/wedding-day") Wedding Day
+        span /
+      li
+        a(href="/lodging") Lodging/Travel
+        span /
+      li
+        a(href="#") RSVP
+  .wrapper
+    .text
+      h1 Overview 🎉
+      ul
+        li JoJo + Aharon are getting married on ⏰<b>September 15, 2018 at 5pm</b>.
+        li The ceremony and reception will be located at 📍<a href="https://goo.gl/maps/DaWxVAAUbgt" target="_blank">455 Oxford Street, Bridgeton, NJ 08302</a>, the home of Aharon's parents, Keith and Betsy Riley-Wasserman. 
+        li If you're traveling to New Jersey from out of town, you can find ✈️<a href="/travel">travel and lodging information here.</a>
+        li Guests can <a href="#" target="_blank">RSVP here</a>.
+      
+      //- img(src="/images/roof.gif")
+      img(src="/images/dance.gif", width="100%")
+      //- img(src="/images/engage.gif", width="100%")
+      //- img(src="/images/yard.gif")
+      //- img(src="/images/nuzzle.gif")
+
+    footer

@@ -1,0 +1,37 @@
+{
+  "name": "jojo-and-aharon",
+  "version": "0.0.1",
+  "description": "JoJo and Aharon wedding",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "*",
+    "express": "4.9.x",
+    "gulp": "~3.9.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-data": "^1.2.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-flatten": "0.3.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-jade": "1.1.0",
+    "gulp-layout": "0.0.4",
+    "gulp-markdown": "^1.2.0",
+    "gulp-markdown-to-json": "^1.0.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-s3-upload": "^1.4.4",
+    "gulp-stylus": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "jeet": "^6.1.2",
+    "marked": "^0.3.6",
+    "nib": "^1.1.0",
+    "pug": "^2.0.0-beta6",
+    "rupture": "^0.6.1",
+    "underscore": "1.8.x",
+    "vinyl": "2.0.0"
+  }
+}
