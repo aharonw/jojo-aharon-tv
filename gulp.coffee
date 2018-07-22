@@ -34,7 +34,7 @@ allIndexs = (file) ->
   if slug is 'index'
     file.dirname = ''
   else
-    if file.basename in ['wedding-day', 'bridgeton', 'lodging', 'travel', 'faqs']
+    if file.basename in ['wedding-day', 'bridgeton', 'lodging', 'travel', 'faq']
       file.dirname = file.basename
     else
       file.dirname = slug.split("-").slice(2,slug.length).join('-')

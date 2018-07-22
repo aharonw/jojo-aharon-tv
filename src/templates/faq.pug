@@ -1,0 +1,42 @@
+extends layouts/_layout
+
+block content
+  header
+    h1 Joanna + Aharon's Wedding
+    ul
+      li
+        a(href="/") Home
+        span /
+      li
+        a(href="/wedding-day") Wedding Day
+        span /
+      li
+        a(href="/travel") Lodging/Travel
+        span /
+      li
+        a(href="/faq").here FAQs
+        span /
+      li
+        a(href="https://docs.google.com/forms/d/e/1FAIpQLScLbpKmfiGp7J0l9g9x0Kj7XJYzVvafyd2cVUEOsQIQ6Yx4bA/viewform?usp=sf_link", target="_blank") RSVP
+
+  .banner
+    img(src="/images/website-header.jpg")
+
+  .wrapper
+    .text
+    
+      h1(style="text-align:left") FAQs
+      
+      .divider
+        h2 What's the attire for this wedding?
+        p Not formal, but don't embarass yourself. There will be some walking on grass. <a href="https://loschy.us/">Crowns are encouraged.</a>
+      
+      .divider
+        h2 Can I give you a gift?
+        p You may, but no pressure. More info <a href="https://www.zola.com/registry/jojoandaharon">here</a>.
+
+      .divider
+        h2 Can I bring kids?
+        p Kids are welcome.
+
+    footer
